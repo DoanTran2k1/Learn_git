@@ -24,3 +24,10 @@ Cách viết `.gitignore`
  - Ignore thư mục: folder/
  - Phủ định thì thêm `!`
  - Ignore tất cả các file có đuôi là `.exe`: `*.exe`
+ - Ignore tất cả các file có tên bắt đầu là log: log*
+ - Ignore tất cả các file có đuôi là .exe ở theo đường dẫn folder/file.exe (các file ở đường dẫn folder/sub/file.exe sẽ không bị ignore): folder/**.exe
+ - Ignore tất cả các file có đuôi là .exe ở thư mục folder dù cho có nằm ở sub-folder đi chăng nữa: folder/**/**.exe
+ - Ignore mọi thứ bên trong thư mục folder: folder/**
+
+
+ sjdhfhsdgfhs
