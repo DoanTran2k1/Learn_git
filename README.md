@@ -17,3 +17,10 @@ Khu vực remote (gọi origin cũng được): Sau khi dùng git push sẽ file
 ## git log: Hiển thị log commit (Hiển thị những thông tin commit gần nhất)
  - Nếu muốn nhìn những thông tin rút gọn: `git log --oneline`
 ## git pull: Kéo code từ remote pepo về
+## Bỏ qua file với .gitignore
+Cách viết `.gitignore`
+ - Comment thì dùng `#`
+ - Ignore file: abc.exe
+ - Ignore thư mục: folder/
+ - Phủ định thì thêm `!`
+ - Ignore tất cả các file có đuôi là `.exe`: `*.exe`
