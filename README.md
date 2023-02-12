@@ -16,3 +16,4 @@ Khu vực remote (gọi origin cũng được): Sau khi dùng git push sẽ file
 ## git push: đẩy code lên git server
 ## git log: Hiển thị log commit (Hiển thị những thông tin commit gần nhất)
  - Nếu muốn nhìn những thông tin rút gọn: `git log --oneline`
+## kkkkk oook
